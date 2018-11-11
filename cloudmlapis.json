@@ -1,12 +1,12 @@
 {
   "type": "service_account",
-  "project_id": "pravallika-kavikondala",
-  "private_key_id": "13839b1672a9a97d0f1ddf40a6fc0176106ca913",
-  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDlmUxHXRur2Oyz\n7krPWofBxRsj+VktNnMmKZHU0JRjQvHD8lZLeY6KmHwVyBoHtkQhzCIdMTSxdxiy\n6xG53lVVfv1nTV/fsfVb6rl/VbKZzNzpbnkIwBmtHue8QlN6EpIqtwAe1QxsWH4M\n1ZGqVHQqwIAWZUfw9A9vO3vHQZ0XgJM80bbj7FrwfKZ5R8qshGxqyZeKbrIzVfuB\nto6jRujnqvzyk8rUdoq7aQ81t4HYxeCqcMrFz0UQQhIPGex6YOql2lzwboWZjmmL\nAaB1fp0KmUR5KcRJ02BwPIvBE5lAbkFw3ZmOZKhM4ha8K2lZjWh43ttQ19SrZb2s\ntuuPkwjXAgMBAAECggEAYvUQHeAA+a/M0X5eqwFLatY/7ODfMS/7MFMRYiamFiQ3\n3Kr5y5zwNUckkCTHJ1TFB8YaW/elzOlWcWMEqFYt9GP/5wK/1EO4yy2fVsUCbeyQ\nuGGfdAiL6IRd/9OcdAxGCHgIasGLkbUQWwq/tiihSv3eFwj/GVivwFLkdgyPHx2/\n7YGrQkweOexcdQWyZzbV9LqUYeskKf0bonAFjdY4phBiHuIG7bwPdHTJd79GgICT\nXnOp6PbIlCQQBMy6BJIkoomPrZCvuUtDKg+kewMmAhth9hChDiQEU/8qhvIyEXWP\nmtV5HSYW+qS5+5V1NbBW8ismEZU2KNKg46RLy1HKYQKBgQD8sieEJNIp0lTIN4Uk\n8pAPMtZwTtt1an6hruPE80RxnQ15GcKsM58KqfYWODxzZOKsCJGXEqAZUbPnSnps\n6UAuyxqm3eJ4yYBTSshHfyZSg0Dtm9RMms4TxGta07aBW2dpr4UuFiSVULZYN7pG\n6RRymqmldanzNaJQ50fEsclxoQKBgQDomdS85Snt/w8+srPyn3A5GNvPcFOXXmXE\nT0WCHPxrybA0uCpzlUguAH1rInp83ZSRBoj8eRREStiJg79TLq7voCnVUh3eIQd2\nUi4BNANsop8SSOljqlpBynNMKSRCOhGhvYUjMM3kVK3PzD13xE4x8m+OZ6CH5ymU\n9qdvHuHXdwKBgQCqOoW+UmO1wrhUjHpIMpNzeabVz3mttokJ+Fv+EHcaJleuLflj\nsf7A21ApFcc7YUoF5FvXrrdldxG/jP++IL+ZBj+1C6KGBhBJjAYxi+lQCpWRu7kf\nxeVvkZFUhWzb5axbmN8Z9da9M7sy4I+/N0MMFT6VdReA/K+U2skRK0duIQKBgAPD\nGTHE8xyqV3DIKyjtcz85K7T7OB7mo/a84X7tQRftNzBjGiysaXJ1B5JICHskilae\nKHEM9Er2evIec2XBB4tQp9yPa3RATIKZaa0TTkrfhnshOsUl6DfQMnU05SU9EzPu\ngMzE6U+cHwORZh0dy7X7GdrPykTodD+4jZS6hySZAoGADQwwtpOSk3GGqmg5LTzC\nGqRNjhPl7Lsr/jz4bwVGsv9vDNt11ebJYpdDCURmuEe/LVVfJMecRbKcOrfgyU4Z\negPh9ZIYDN4pBvDQliDPp3y2t0aJcOKRvLozUBlV7y8GaE4HPWIa6VEY8KSz1Tu1\nivBvDFnCiZoSEeh/v0k0P54=\n-----END PRIVATE KEY-----\n",
-  "client_email": "cloudmlapis@pravallika-kavikondala.iam.gserviceaccount.com",
+  "project_id": "PROJECT_ID",
+  "private_key_id": "*****",
+  "private_key": "-----BEGIN PRIVATE KEY-----\n************\n-----END PRIVATE KEY-----\n",
+  "client_email": "cloudmlapis@PROJECT_ID.iam.gserviceaccount.com",
   "client_id": "101423375542704493597",
   "auth_uri": "https://accounts.google.com/o/oauth2/auth",
   "token_uri": "https://oauth2.googleapis.com/token",
   "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/cloudmlapis%40pravallika-kavikondala.iam.gserviceaccount.com"
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/cloudmlapis%40PROJECT_ID.iam.gserviceaccount.com"
 }
