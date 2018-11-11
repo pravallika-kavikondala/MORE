@@ -1,0 +1,54 @@
+{% extends "layout.html" %}
+{% block content %}
+<center>
+<div>
+	<img src="static/images/logo.jpg" alt="logo" width="25%" height="20%">
+</div>
+
+<div class="navbar" style="margin-top:-2%; width:50%;">
+	<a class="active" href="{{ url_for('home') }}"><b> Home </b></a> 
+  	<a href="{{ url_for('review') }}"><b> View </b></a> 
+  	<a href="{{ url_for('add') }}"><b> Add </b></a>
+  	<a href="{{ url_for('translates') }}"><b> Translate </b></a> 
+</div>
+
+<table width="30%">
+<tr>
+<td><form method="POST" action="/translates">
+	<div class="form-group">
+      	<select class="form-control" id="lang" name="reqlang" width="25%">
+      		<option value="de"> German </option>
+      		<option value="fr"> French </option>
+      		<option value="zh-TW"> Chinese (Traditional)</option>
+      		<option value="hi"> Hindi </option>
+      		<option value="mr"> Marathi </option>
+      		<option value="te"> Telugu </option>
+      	</select>
+  	</div>
+  	<div>
+  		<input type="submit" class="btn btn-info" value="Translate"> 
+  	</div>
+  	</form>
+  </td>
+  </tr>
+  </table>
+
+
+<h1 style="color: orange;"> Translated reviews </h1>
+      {% for re in review | batch(2) %}
+		{% for r in re%}
+        	<p style="color:white;">
+        		<b> MOVIE: </b>{{ r.name }}<br>  
+        		<b> YEAR: </b>{{ r.year }}<br>
+        		<b> GENRE: </b>{{ r.genre }}<br>
+        		<b> RATING: </b>{{ r.rating }}<br> 
+        		<b> REVIEWER: </b>{{ r.reviewer }}<br>
+        		<b> COMMENT: </b>{{ r.review }}<br>
+        		<center><hr width="25%"></center>
+        	</p>
+    	{% endfor %}
+    {% endfor %}     
+
+</center>	
+{% endblock %}
+

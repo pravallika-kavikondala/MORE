@@ -1,0 +1,25 @@
+{% extends "layout.html" %}
+{% block content %}
+<center>
+<div>
+  <img src="static/images/logo.jpg" alt="logo" width="25%" height="20%">
+</div>
+
+<div class="navbar" style="margin-top:-2%; width:50%;">
+  <a href="{{ url_for('home') }}"><b> Home </b></a> 
+    <a class="active" href="{{ url_for('review') }}"><b> View </b></a> 
+    <a href="{{ url_for('add') }}"><b> Add </b></a>
+    <a href="{{ url_for('translates') }}"><b> Translate </b></a> 
+</div>  
+</center>
+    <h1 style="color: orange;"> Movie reviews </h1>
+      {% for re in review | batch(2) %}
+		{% for r in re%}
+        	<p style="color:white; font-size:13px; font-family:Verdana;">The movie <b>{{ r.name }}</b> released in <b>{{ r.year }}</b> of <b>{{ r.genre }}</b> genre got <b>{{ r.rating }}</b> rating with the following review from <b>{{ r.reviewer }}</b>
+	    	<br><b>comments:</b> {{ r.review }} <br><b>Sentiment:</b> {{ r.sentiment }} <br><b>Decision:</b> {{ r.decision }}
+	    	<center><hr width="25%"></center>
+        	</p>
+    	{% endfor %}
+    {% endfor %}     
+
+{% endblock %}
